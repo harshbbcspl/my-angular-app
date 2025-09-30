@@ -1,0 +1,11 @@
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+}
+
+.contact-section .card {
+  border: none;
+}

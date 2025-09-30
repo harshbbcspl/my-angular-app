@@ -1,0 +1,41 @@
+/* Slider Section */
+.slider-section {
+  height: 700px;
+  overflow: hidden;
+}
+
+.slider-section .carousel-item {
+  height: 700px;
+  position: relative;
+}
+
+.slider-section .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.6); /* Dark overlay for better text visibility */
+}
+
+.slider-section .carousel-caption {
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slider-section .carousel-caption h1 {
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  font-size: 3rem;
+}
+
+.slider-section .carousel-caption p {
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+}
